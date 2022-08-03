@@ -1,0 +1,107 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 737878736897 (0xabcd000001)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=DE, ST=Baden-W\xC3\x83\xC2\xBCrttemberg, L=Stuttgart, O=PracNet, OU=Practical TLS, CN=Root CA
+        Validity
+            Not Before: Aug  3 14:03:02 2022 GMT
+            Not After : Aug  3 14:03:02 2023 GMT
+        Subject: C=US, ST=Illinois, L=Chicago, O=frodo.com, OU=Practical TLS, CN=frodo.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ad:c5:79:cd:36:78:af:ff:f1:c8:ce:70:32:ce:
+                    2c:46:2f:08:81:ce:90:4c:57:32:1c:a9:66:3b:20:
+                    61:11:f9:68:34:2f:b8:9a:f3:b1:89:59:6b:2c:fc:
+                    cb:02:35:6b:dc:c3:33:b7:0f:8f:51:52:f2:4b:4d:
+                    56:d4:11:b5:5f:cc:d9:0b:2b:8f:2e:19:e1:cc:c8:
+                    75:78:34:bb:ff:f5:20:69:21:76:50:99:a4:6a:8e:
+                    0b:9f:b5:2a:ee:96:b1:e6:81:af:9d:0f:a8:24:c6:
+                    5b:da:23:f0:80:28:0e:41:cf:aa:7e:c0:d0:f9:a8:
+                    20:5e:2f:da:f6:0c:cf:ec:0e:85:e5:90:ad:3a:3e:
+                    21:3e:ed:e6:1b:ea:93:53:8f:28:9f:59:b9:9a:f5:
+                    22:0d:46:2b:8a:79:35:c3:7f:04:ef:02:6e:6f:89:
+                    84:4e:05:f1:8b:c2:a5:8f:45:b3:c6:1c:65:c6:91:
+                    f7:2e:28:e1:7e:a0:0a:e8:79:66:8d:4f:ff:b4:e8:
+                    9e:30:e1:75:dd:fb:13:2e:96:07:47:a5:c7:39:29:
+                    2c:74:6b:a3:88:0a:38:87:11:92:a8:19:06:64:ad:
+                    bd:b0:f4:72:6a:4c:e0:c5:96:b7:52:75:ba:f9:98:
+                    f0:20:22:08:51:ee:8e:f4:6a:80:e8:c9:78:5f:14:
+                    bf:13
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                6F:A3:F7:B7:66:F2:3B:82:F0:87:51:77:19:05:1C:08:53:80:30:10
+            X509v3 Authority Key Identifier: 
+                DirName:/C=DE/ST=Baden-W\xC3\x83\xC2\xBCrttemberg/L=Stuttgart/O=PracNet/OU=Practical TLS/CN=Root CA
+                serial:F3:D0:D2:57:67:96:4E:42
+
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+    Signature Algorithm: sha256WithRSAEncryption
+         24:3f:b0:78:28:98:c6:f4:cf:5a:9e:98:78:ac:8f:54:78:b4:
+         c3:81:6a:99:f7:e3:96:95:11:0a:d5:33:ac:70:e3:f4:7f:62:
+         7e:b9:d3:4e:50:6b:ba:69:70:14:92:e9:f3:44:92:c2:87:4b:
+         d6:9e:51:d9:21:6f:51:2d:13:a1:ff:49:dd:bb:44:3f:af:ea:
+         25:4c:68:a5:b4:b3:d8:8e:8c:eb:36:cb:42:b0:04:ad:46:f1:
+         26:95:f3:d3:3a:b7:45:6d:d8:c6:d2:a8:fc:98:dc:df:a5:69:
+         b7:6a:54:09:a5:0c:92:50:27:ce:73:41:ef:0b:cf:b5:39:74:
+         4b:7f:a9:f0:18:d2:3f:ef:3d:df:2c:d7:2c:0f:9e:ea:52:23:
+         2c:5e:1d:68:b9:5e:af:b6:15:24:92:ff:85:bd:0b:77:d8:4d:
+         b2:94:3d:91:39:4c:e4:59:51:92:22:61:24:d6:10:bc:f6:12:
+         58:81:50:27:db:12:49:33:fb:ea:5c:9d:8e:1a:e3:ec:17:fb:
+         72:63:39:70:44:1e:3b:12:a9:f2:7d:15:14:12:81:d2:63:fc:
+         c3:75:28:8e:a4:ba:2c:bf:c8:14:96:cf:2c:da:0d:8c:f4:1c:
+         0a:40:34:d4:58:cb:39:22:82:cb:63:81:4a:20:4f:0b:eb:0d:
+         99:0b:31:cc:0d:aa:e3:7e:24:02:3e:9b:6a:3d:17:ef:60:4b:
+         6f:b7:bd:33:6d:99:c4:18:60:c5:ff:41:27:d6:5d:a4:c1:15:
+         88:97:57:b5:bd:84:24:c7:fa:6b:98:c1:a3:7d:c4:af:08:6c:
+         35:9e:e4:ca:3b:cf:20:e0:0f:1d:fd:4e:b8:b0:10:b3:4c:2a:
+         b6:1d:84:f4:a6:aa:c7:09:fd:a5:86:40:b7:69:37:6f:9d:6f:
+         55:68:81:a8:32:29:f3:a2:bd:06:b2:27:dd:c9:f8:51:ec:a1:
+         e9:7b:ce:f2:1f:53:3b:46:1b:53:20:f9:d6:e3:c1:35:e5:a5:
+         69:08:c1:94:68:6d:b7:da:ba:a8:65:60:40:38:a0:f0:27:91:
+         82:a2:ad:eb:1b:fd:c5:80:84:c8:84:c0:94:24:41:44:9a:f6:
+         de:ce:a5:ba:8b:f3:b0:2a:b2:35:08:b5:70:90:88:41:99:f9:
+         e2:93:c9:28:3d:e9:02:4c:3e:93:e1:ba:64:a6:99:84:34:c7:
+         d3:6d:81:af:e2:0e:7a:bd:88:d2:f4:49:fa:c4:5c:4c:39:b6:
+         2e:da:56:fd:e6:9a:e7:a8:f0:f9:e3:9e:0c:f7:e2:97:87:17:
+         d4:2b:61:b2:47:ae:85:c6:82:ca:40:5c:8a:af:c6:14:ca:1a:
+         e5:63:c4:3d:9d:df:fe:7c
+-----BEGIN CERTIFICATE-----
+MIIFWjCCA0KgAwIBAgIGAKvNAAABMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYT
+AkRFMR0wGwYDVQQIDBRCYWRlbi1Xw4PCvHJ0dGVtYmVyZzESMBAGA1UEBwwJU3R1
+dHRnYXJ0MRAwDgYDVQQKDAdQcmFjTmV0MRYwFAYDVQQLDA1QcmFjdGljYWwgVExT
+MRAwDgYDVQQDDAdSb290IENBMB4XDTIyMDgwMzE0MDMwMloXDTIzMDgwMzE0MDMw
+MlowcjELMAkGA1UEBhMCVVMxETAPBgNVBAgMCElsbGlub2lzMRAwDgYDVQQHDAdD
+aGljYWdvMRIwEAYDVQQKDAlmcm9kby5jb20xFjAUBgNVBAsMDVByYWN0aWNhbCBU
+TFMxEjAQBgNVBAMMCWZyb2RvLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAK3Fec02eK//8cjOcDLOLEYvCIHOkExXMhypZjsgYRH5aDQvuJrzsYlZ
+ayz8ywI1a9zDM7cPj1FS8ktNVtQRtV/M2Qsrjy4Z4czIdXg0u//1IGkhdlCZpGqO
+C5+1Ku6WseaBr50PqCTGW9oj8IAoDkHPqn7A0PmoIF4v2vYMz+wOheWQrTo+IT7t
+5hvqk1OPKJ9ZuZr1Ig1GK4p5NcN/BO8Cbm+JhE4F8YvCpY9Fs8YcZcaR9y4o4X6g
+Cuh5Zo1P/7TonjDhdd37Ey6WB0elxzkpLHRro4gKOIcRkqgZBmStvbD0cmpM4MWW
+t1J1uvmY8CAiCFHujvRqgOjJeF8UvxMCAwEAAaOB6zCB6DAJBgNVHRMEAjAAMB0G
+A1UdDgQWBBRvo/e3ZvI7gvCHUXcZBRwIU4AwEDCBmQYDVR0jBIGRMIGOoYGApH4w
+fDELMAkGA1UEBhMCREUxHTAbBgNVBAgMFEJhZGVuLVfDg8K8cnR0ZW1iZXJnMRIw
+EAYDVQQHDAlTdHV0dGdhcnQxEDAOBgNVBAoMB1ByYWNOZXQxFjAUBgNVBAsMDVBy
+YWN0aWNhbCBUTFMxEDAOBgNVBAMMB1Jvb3QgQ0GCCQDz0NJXZ5ZOQjALBgNVHQ8E
+BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQELBQADggIBACQ/
+sHgomMb0z1qemHisj1R4tMOBapn345aVEQrVM6xw4/R/Yn65005Qa7ppcBSS6fNE
+ksKHS9aeUdkhb1EtE6H/Sd27RD+v6iVMaKW0s9iOjOs2y0KwBK1G8SaV89M6t0Vt
+2MbSqPyY3N+labdqVAmlDJJQJ85zQe8Lz7U5dEt/qfAY0j/vPd8s1ywPnupSIyxe
+HWi5Xq+2FSSS/4W9C3fYTbKUPZE5TORZUZIiYSTWELz2EliBUCfbEkkz++pcnY4a
+4+wX+3JjOXBEHjsSqfJ9FRQSgdJj/MN1KI6kuiy/yBSWzyzaDYz0HApANNRYyzki
+gstjgUogTwvrDZkLMcwNquN+JAI+m2o9F+9gS2+3vTNtmcQYYMX/QSfWXaTBFYiX
+V7W9hCTH+muYwaN9xK8IbDWe5Mo7zyDgDx39TriwELNMKrYdhPSmqscJ/aWGQLdp
+N2+db1VogagyKfOivQayJ93J+FHsoel7zvIfUztGG1Mg+dbjwTXlpWkIwZRobbfa
+uqhlYEA4oPAnkYKiresb/cWAhMiEwJQkQUSa9t7OpbqL87AqsjUItXCQiEGZ+eKT
+ySg96QJMPpPhumSmmYQ0x9Ntga/iDnq9iNL0SfrEXEw5ti7aVv3mmueo8Pnjngz3
+4peHF9QrYbJHroXGgspAXIqvxhTKGuVjxD2d3/58
+-----END CERTIFICATE-----
