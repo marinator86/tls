@@ -1,1 +1,2 @@
 V	230803140302Z		ABCD000001	unknown	/C=US/ST=Illinois/L=Chicago/O=frodo.com/OU=Practical TLS/CN=frodo.com
+V	230803142455Z		ABCD000002	unknown	/C=US/ST=California/L=San Francisco/O=bilbo.com/CN=*.bilbo.com
