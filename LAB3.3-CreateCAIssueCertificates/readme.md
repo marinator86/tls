@@ -1,7 +1,3 @@
 # Create a CA and issue certificates
 
-Execute
-```
-openssl rsa -in Rainbow.key -noout -modulus
-openssl x509 -in Rainbow.cert -noout -modulus
-```
+Check the lab-3-3-creating-a-ca-and-issuing-certificates.pdf file for details.
