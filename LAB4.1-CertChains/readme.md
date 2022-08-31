@@ -1,6 +1,6 @@
 # Follow Certificate Chains
 
-Check the lab-4-1-certificate-chains.pdf.pdf file for details.
+Check the lab-4-1-certificate-chains.pdf file for details.
 
 Task 1:
 ```

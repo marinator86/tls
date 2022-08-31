@@ -1,6 +1,6 @@
 # Certificate Revocation
 
-Check the lab-4-2-certificate-revocation.pdf.pdf file for details.
+Check the lab-4-2-certificate-revocation.pdf file for details.
 
 ## CRL
 
