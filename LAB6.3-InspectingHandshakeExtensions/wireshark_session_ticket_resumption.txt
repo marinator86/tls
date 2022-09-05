@@ -1,0 +1,148 @@
+No.     Time           Source                Destination           Protocol Length Info
+     48 3763.332612    192.168.1.224         31.13.70.36           TLSv1.2  505    Client Hello
+
+Frame 48: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits)
+Ethernet II, Src: IntelCor_3b:8a:e4 (94:65:9c:3b:8a:e4), Dst: AskeyCom_84:6f:b2 (7c:db:98:84:6f:b2)
+Internet Protocol Version 4, Src: 192.168.1.224, Dst: 31.13.70.36
+Transmission Control Protocol, Src Port: 65326, Dst Port: 443, Seq: 1, Ack: 1, Len: 439
+Transport Layer Security
+    TLSv1.2 Record Layer: Handshake Protocol: Client Hello
+        Content Type: Handshake (22)
+        Version: TLS 1.0 (0x0301)
+        Length: 434
+        Handshake Protocol: Client Hello
+            Handshake Type: Client Hello (1)
+            Length: 430
+            Version: TLS 1.2 (0x0303)
+            Random: 563412d18414db821b7cd2521dab1e8b0b613de92feee521d39d93bea8585c41
+            Session ID Length: 32
+            Session ID: c2af7689efe898cb57367e88e614459373fc635833e5d471c8756f1cdf9a1086
+            Cipher Suites Length: 56
+            Cipher Suites (28 suites)
+            Compression Methods Length: 1
+            Compression Methods (1 method)
+            Extensions Length: 301
+            Extension: server_name (len=17)
+                Type: server_name (0)
+                Length: 17
+                Server Name Indication extension
+                    Server Name list length: 15
+                    Server Name Type: host_name (0)
+                    Server Name length: 12
+                    Server Name: facebook.com
+            Extension: ec_point_formats (len=4)
+                Type: ec_point_formats (11)
+                Length: 4
+                EC point formats Length: 3
+                Elliptic curves point formats (3)
+            Extension: supported_groups (len=12)
+                Type: supported_groups (10)
+                Length: 12
+                Supported Groups List Length: 10
+                Supported Groups (5 groups)
+            Extension: session_ticket (len=192)
+                Type: session_ticket (35)
+                Length: 192
+                Data (192 bytes)
+            Extension: encrypt_then_mac (len=0)
+                Type: encrypt_then_mac (22)
+                Length: 0
+            Extension: extended_master_secret (len=0)
+                Type: extended_master_secret (23)
+                Length: 0
+            Extension: signature_algorithms (len=48)
+                Type: signature_algorithms (13)
+                Length: 48
+                Signature Hash Algorithms Length: 46
+                Signature Hash Algorithms (23 algorithms)
+            [JA3 Fullstring: 771,49196-49200-159-52393-52392-52394-49195-49199-158-49188-49192-107-49187-49191-103-49162-49172-57-49161-49171-51-157-156-61-60-53-47-255,0-11-10-35-22-23-13,29-23-30-25-24,0-1-2]
+            [JA3: 871a754af286dfb70c1b53c6887c62e0]
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 3763.393794    31.13.70.36           192.168.1.224         TLSv1.2  207    Server Hello, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 50: 207 bytes on wire (1656 bits), 207 bytes captured (1656 bits)
+Ethernet II, Src: AskeyCom_84:6f:b2 (7c:db:98:84:6f:b2), Dst: IntelCor_3b:8a:e4 (94:65:9c:3b:8a:e4)
+Internet Protocol Version 4, Src: 31.13.70.36, Dst: 192.168.1.224
+Transmission Control Protocol, Src Port: 443, Dst Port: 65326, Seq: 1, Ack: 440, Len: 141
+Transport Layer Security
+    TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 85
+        Handshake Protocol: Server Hello
+            Handshake Type: Server Hello (2)
+            Length: 81
+            Version: TLS 1.2 (0x0303)
+            Random: 420a172df9ae7b251bf2882b950df109cd0b0c3fa70404db1dfa52ac94ee6399
+            Session ID Length: 32
+            Session ID: c2af7689efe898cb57367e88e614459373fc635833e5d471c8756f1cdf9a1086
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+            Compression Method: null (0)
+            Extensions Length: 9
+            Extension: renegotiation_info (len=1)
+                Type: renegotiation_info (65281)
+                Length: 1
+                Renegotiation Info extension
+            Extension: extended_master_secret (len=0)
+                Type: extended_master_secret (23)
+                Length: 0
+            [JA3S Fullstring: 771,49195,65281-23]
+            [JA3S: 4ce0442e9d20d092d9d74e9ce54b363a]
+    TLSv1.2 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+        Content Type: Change Cipher Spec (20)
+        Version: TLS 1.2 (0x0303)
+        Length: 1
+        Change Cipher Spec Message
+    TLSv1.2 Record Layer: Handshake Protocol: Encrypted Handshake Message
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 40
+        Handshake Protocol: Encrypted Handshake Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 3763.394405    192.168.1.224         31.13.70.36           TLSv1.2  117    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 52: 117 bytes on wire (936 bits), 117 bytes captured (936 bits)
+Ethernet II, Src: IntelCor_3b:8a:e4 (94:65:9c:3b:8a:e4), Dst: AskeyCom_84:6f:b2 (7c:db:98:84:6f:b2)
+Internet Protocol Version 4, Src: 192.168.1.224, Dst: 31.13.70.36
+Transmission Control Protocol, Src Port: 65326, Dst Port: 443, Seq: 440, Ack: 142, Len: 51
+Transport Layer Security
+    TLSv1.2 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+        Content Type: Change Cipher Spec (20)
+        Version: TLS 1.2 (0x0303)
+        Length: 1
+        Change Cipher Spec Message
+    TLSv1.2 Record Layer: Handshake Protocol: Encrypted Handshake Message
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 40
+        Handshake Protocol: Encrypted Handshake Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 3763.394571    192.168.1.224         31.13.70.36           TLSv1.2  97     Encrypted Alert
+
+Frame 53: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: IntelCor_3b:8a:e4 (94:65:9c:3b:8a:e4), Dst: AskeyCom_84:6f:b2 (7c:db:98:84:6f:b2)
+Internet Protocol Version 4, Src: 192.168.1.224, Dst: 31.13.70.36
+Transmission Control Protocol, Src Port: 65326, Dst Port: 443, Seq: 491, Ack: 142, Len: 31
+Transport Layer Security
+    TLSv1.2 Record Layer: Encrypted Alert
+        Content Type: Alert (21)
+        Version: TLS 1.2 (0x0303)
+        Length: 26
+        Alert Message: Encrypted Alert
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 3763.468964    31.13.70.36           192.168.1.224         TLSv1.2  97     Encrypted Alert
+
+Frame 55: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: AskeyCom_84:6f:b2 (7c:db:98:84:6f:b2), Dst: IntelCor_3b:8a:e4 (94:65:9c:3b:8a:e4)
+Internet Protocol Version 4, Src: 31.13.70.36, Dst: 192.168.1.224
+Transmission Control Protocol, Src Port: 443, Dst Port: 65326, Seq: 142, Ack: 523, Len: 31
+Transport Layer Security
+    TLSv1.2 Record Layer: Encrypted Alert
+        Content Type: Alert (21)
+        Version: TLS 1.2 (0x0303)
+        Length: 26
+        Alert Message: Encrypted Alert
